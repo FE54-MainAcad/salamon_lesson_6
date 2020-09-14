@@ -1,0 +1,98 @@
+$color: #e66868;
+$font-family: Arial, Helvetica, sans-serif;
+$blockWidth: 250px;
+$blockHeight: 400px;
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+        &__h1{
+            margin-top: 50px;
+            color: $color;
+            font-size: 25px;
+            font-family: $font-family;
+            font-weight: bold;
+        }
+
+        &__hr{
+            height: 0px;
+            width: 35px;
+            margin-top: 30px;
+        }
+
+        &__content{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        &__form{
+            height: $blockHeight;
+            width: $blockWidth;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            border: solid;
+            border-width: 1px;
+            border-color: #999797ad;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        &__img{
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            margin-top: 50px;
+        }
+
+        &__name{
+            font-family: $font-family;
+            font-weight: bold;
+            margin-top: 30px;
+        }
+
+        &__position{
+            font-family: $font-family;
+            color: $color;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        &__p{
+            text-align: center;
+            width: 170px;
+            font-family: $font-family;
+            margin-top: 10px;
+        }
+
+        &__rating{
+            display: flex;
+        }
+
+        &__ratingImg{
+            height: 15px;
+            margin-top: 10px;
+        }
+
+        &__form:hover{
+            height: 500px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            border: solid;
+            border-width: 1px;
+            border-color: #999797ad;
+            margin-left: 20px;
+            margin-right: 20px;
+            box-shadow: 10px 10px 43px 0px rgba(0,0,0,0.75);
+        }
+
+}
